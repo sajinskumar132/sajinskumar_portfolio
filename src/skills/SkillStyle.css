@@ -1,0 +1,38 @@
+.skill_main_title{
+    color:black ;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: "Inter";
+    text-align: center;
+    margin-bottom: 15px;
+}
+.skill_sub_title{
+    color:#666666 ;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Inter";
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.skills_list_main_container{
+    margin:50px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.skill_item_image{
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+.skill_item_name{
+    margin-top: 10px;
+    color:#6045e5 ;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Inter";
+    text-align: center;
+}

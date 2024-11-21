@@ -1,0 +1,83 @@
+.hero_main_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 80px;
+}
+.hero_hi_text{
+    font-size: 30px;
+    font-size: 'Inter';
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.hero_Sub_text_main{
+    font-weight: 700;
+    color:#6045e5 ;
+}
+.hero_Sub_text{
+    font-size: 30px;
+    font-size: 'Inter';
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.hero_description{
+    font-size: 22px;
+    font-size: 'Inter';
+    margin-bottom: 15px;
+}
+.hero_actions{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.hero_download_Resume{
+    background-color:#6045e5 ;
+    font-size: 18px;
+    font-family: "Inter";
+    color: white;
+    text-align: center;
+    padding: 8px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.hero_action_github{
+    font-size: 30px;
+    cursor: pointer;
+}
+.hero_action_linked_in{
+    font-size: 30px;
+    cursor: pointer;
+}
+.hero_main_content_1{
+    display: block;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 1000px) {
+    .hero_main_content_1{
+        display: none;
+    }
+    .hero_main_container{
+        margin: 20px 10px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

@@ -1,0 +1,107 @@
+.header_main_container{
+    position: sticky;
+    top: 0;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_menu_text_container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.header_name{
+    font-size: 18px;
+    font-family: "Inter";
+    font-weight: 800;
+    color: #6045e5;
+}
+.header_actions_main_container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 15px;
+    font-family: "Inter";
+}
+.header_action{
+    display: block;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: "Inter";
+    text-decoration: none;
+}
+.header_action.selected{
+    color: #6045e5;
+}
+.header_action.not_selected{
+    color: black;
+}
+.nav_download_resume{
+    background-color:#6045e5 ;
+    font-size: 17px;
+    font-family: "Inter";
+    color: white;
+    text-align: center;
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+.header_mobile_menu_icon{
+    display: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+.header_menu_item_list_container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 15px;
+    font-family: "Inter";
+}
+.drawer_menu_item_list_container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.drawer_menu_item_mobile{
+    display: none;
+    position: fixed; /* Change to fixed */
+    top: 0; /* Place at the top of the viewport */
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 9999;
+    background-color: #8c8c8c82;
+    
+}
+.drawer_close_button{
+    position: relative;
+    float: right;
+    font-size: 25px;
+}
+.drawer_menu_items_container{
+    width: 300px;
+    height: 100vh;
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 1000px) {
+    .header_main_container{
+        padding: 10px 10px;
+    }
+    .header_menu_item_list_container{
+        display: none;
+    }
+    .header_mobile_menu_icon{
+        display: block;
+    }
+}
