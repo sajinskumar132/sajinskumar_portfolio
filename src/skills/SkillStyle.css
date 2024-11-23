@@ -36,3 +36,23 @@
     font-family: "Inter";
     text-align: center;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .skill_main_title{
+        font-size: 20px;
+    }
+    .skill_sub_title{
+        font-size: 16px;
+    }
+    .skills_list_main_container{
+        margin:50px 8px; ;
+    }
+    .skill_item_image{
+        width: 50px;
+        height: 50px;
+    }
+    .skill_item_name{
+        font-size: 15px;
+    }
+}

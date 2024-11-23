@@ -63,10 +63,36 @@
 }
 .project_description_title{
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 700;
 }
 .project_description_text{
     font-size: 17px;
     font-weight: 500;
     margin: 5px 0px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .project_main_title{
+        font-size: 20px;
+    }
+    .project_sub_title{
+        font-size: 16px;
+    }
+    .projects_main_container{
+        margin: 50px 10px;
+    }
+    .project_title{
+        font-size: 18px;
+    }
+    .project_description{
+        font-size: 15px;
+    }
+    .project_description_title{
+        font-size: 15px;
+    }
+    .project_description_text{
+        font-size: 15px;
+    }
 }

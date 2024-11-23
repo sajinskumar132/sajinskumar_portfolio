@@ -27,3 +27,13 @@
 .connect_with_me_icon{
     cursor: pointer;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .connect_with_me_main_title{
+        font-size: 20px;
+    }
+    .connect_with_me_sub_title{
+        font-size: 16px;
+    }
+}

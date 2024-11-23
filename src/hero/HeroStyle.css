@@ -54,7 +54,24 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-
+    .hero_hi_text{
+        font-size: 20px;
+    }
+    .hero_Sub_text{
+        font-size: 20px;
+    }
+    .hero_description{
+        font-size: 18px;
+    }
+    .hero_download_Resume{
+        font-size: 15px;
+    }
+    .hero_action_github{
+        font-size: 25px;
+    }
+    .hero_action_linked_in{
+        font-size: 25px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

@@ -66,12 +66,12 @@
 }
 .drawer_menu_item_mobile{
     display: none;
-    position: fixed; /* Change to fixed */
-    top: 0; /* Place at the top of the viewport */
+    position: fixed;
+    top: 0;
     left: 0;
     height: 100vh;
     width: 100vw;
-    z-index: 9999;
+    z-index: 99;
     background-color: #8c8c8c82;
     
 }
@@ -90,6 +90,10 @@
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    .drawer_menu_item_list_container{
+        margin-top: 25px;
+
+    }
 
 }
 

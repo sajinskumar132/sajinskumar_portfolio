@@ -45,11 +45,11 @@
 }
 .calender_icon{
     font-size: 25px;
-    color: gray;
+    color: #7E57C2;
 }
 .designation_icon{
     font-size: 30px;
-    color: #ac89e9
+    color: #7E57C2
 }
 .company_name_text{
     color: #6045e5;
@@ -89,7 +89,7 @@
 }
 .description_title{
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 700;
 }
 .description_text{
     font-size: 17px;
@@ -101,6 +101,24 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    .experience_main_title{
+        font-size: 20px;
+    }
+    .experience_sub_title{
+        font-size: 16px;
+    }
+    .company_name_text{
+        font-size: 16px;
+    }
+    .designation_text{
+        font-size: 15px;
+    }
+    .description_title{
+        font-size: 16px;
+    }
+    .description_text{
+        font-size: 15px;
+    }
 
 }
 
